@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 65px 35px 65px 35px;
+}
+body header {
+  padding-bottom: 76px;
+}
+body header .content h2 {
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.166667px;
+  color: #4D4F62;
+}
+body header .content h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.166667px;
+  color: #4D4F62;
+  padding-bottom: 13px;
+}
+body header .content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.104167px;
+  color: #4D4F62;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+body main {
+  width: 100%;
+}
+body main .cont {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  box-sizing: border-box;
+  padding: 27px 27px 27px 27px;
+  position: relative;
+  margin-bottom: 25px;
+}
+body main .cont h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4D4F62;
+}
+body main .cont p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.0902778px;
+  color: #4D4F62;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-bottom: 33px;
+}
+body main .cont .stroke {
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+body main .cont .cyan {
+  background-color: #44D3D2;
+}
+body main .cont .red {
+  background-color: #EA5454;
+}
+body main .cont .yellow {
+  background-color: #FCAE4A;
+}
+body main .cont .blue {
+  background-color: #549EF2;
+}
+body main .cont .icon-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ---- Desktop ---- */
+@media screen and (min-width: 1024px) {
+  body main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  body main .cont {
+    width: 33%;
+    height: 20%;
+  }
+  body main .mid-section {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  }
+  body main .mid-section .cont-yellow {
+    width: 100%;
+  }
+  body main .mid-section .cont-red {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
